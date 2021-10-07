@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "layout": "gulp layout"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "cssnano": "^5.0.8",
+    "fibers": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-tap": "^2.0.0",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.9",
+    "sass": "^1.42.1"
+  }
+}

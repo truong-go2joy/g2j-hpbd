@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="/vendor.css">
+</head>
+<body>
+  {# {% set arrHpbdWishList = [
+    {
+      'name': '',
+      'content': '',
+      'top_percent': ''
+    },
+  ] %} #}
+  <div class="g2j-hpbd-layout">
+    <!-- wish-card-section -->
+    {% include "./component/g2j-wish-card-section.njk" %}
+    <!-- end wish-card-section -->
+
+    <!-- comment-section -->
+    {% include "./component/g2j-commnent-section.njk" %}
+    <!-- end comment-section -->
+
+    <!-- birthday-cake-section -->
+    {% include "./component/g2j-birthday-cake-section.njk" %}
+    <!-- end birthday-cake-section -->
+    <script src="/vendor.js"></script>
+  </div> <!-- .g2j-hpbd-layout -->
+</body>
+</html>
